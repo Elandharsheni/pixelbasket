@@ -13,9 +13,8 @@
   border-radius: 18px;
   background: rgba(12, 12, 16, 0.72);
   backdrop-filter: blur(12px);
-  position: sticky;
-  top: 16px;
-  z-index: 20;
+  position: relative;
+  z-index: 1;
 }
 
 .brand {
