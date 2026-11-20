@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 24px;
+  padding: 10px 24px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 18px;
   background: rgba(12, 12, 16, 0.72);
@@ -30,8 +30,8 @@
 
 .brand-logo {
   display: block;
-  width: clamp(180px, 18vw, 240px);
-  height: auto;
+  width: 84px;
+  height: 84px;
   object-fit: contain;
   filter: drop-shadow(0 0 8px rgba(198, 164, 93, 0.28));
 }
