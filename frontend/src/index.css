@@ -1,0 +1,47 @@
+:root {
+  --color-black: #080808;
+  --color-gold: #c6a45d;
+  --color-card: #1b1b1b;
+  --color-warm-white: #f5f1e8;
+  --color-muted: rgba(245, 241, 232, 0.72);
+  --color-border: rgba(198, 164, 93, 0.2);
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-warm-white);
+  background: var(--color-black);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--color-black);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a, button {
+  font: inherit;
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+}
